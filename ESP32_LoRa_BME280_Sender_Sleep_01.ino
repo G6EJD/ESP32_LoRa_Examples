@@ -17,7 +17,7 @@ IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGE
 
 Adafruit_BME280 bme; // I2C
 
-const unsigned long UpdateInterval = 0.25 * (60L * 1000000L); // Update delay in microseconds
+const unsigned long UpdateInterval = 0.25 * (60L * 1000000L); // Update delay in microseconds, currently 15-secs (1/4 of minute)
 
 void setup() {
   Serial.begin(115200);
