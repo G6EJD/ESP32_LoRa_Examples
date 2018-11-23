@@ -12,7 +12,7 @@ IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGE
 */
 
 #include "SSD1306Wire.h"
-#include <LoRa.h>
+#include <LoRa.h> //https://github.com/sandeepmistry/arduino-LoRa
 
 #define SCK 5 // GPIO5 - SX1278's SCK
 #define MISO 19 // GPIO19 - SX1278's MISO
